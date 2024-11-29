@@ -69,6 +69,7 @@ class _HomePageState extends State<HomePage> {
                   final todo = todos[index];
                   return ListTile(
                     title: Text(todo.title),
+
                     leading: Text(todo.id.toString()),
                   );
                 } else {
